@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Monsieur+La+Doulaise&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    box-sizing: border-box;
+   
 }
+body{
+    font-family:Monsieur+La+Doulaise ,Spectral,DM Serif Text    ;
+
+    ;
+}
+.image{
+    height: 40vh;
+    width:max-content;
+    padding:0px;
+  border: 3px solid silver;
+    border-radius: 30%;
+
+} 
+#root{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+ margin: 0;
+    min-height: 100vh;
+
+}
+h3{
+    margin: 10px 0;
+
+}
+p{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+}
+.card-container{
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px;
+ color: antiquewhite;
+ padding-top: 30px;
+ width: 350px;
+ max-width: 100%;
+ text-align: center;
+}
+.pro{ 
+   
+    color:rgb(0, 0, 0);
+    background-color: chartreuse;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 7px;
+    position  :absolute;
+
+    left: 600px;
+}
+.online{
+    background-color: greenyellow;
+
+}
+.offline{
+    background-color: chocolate;
+}
+.button{
+    display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+button.primary{
+    background-color: cyan;
+    border: 3px solid rgb(15, 232, 252);
+    border-radius: 3px;
+    font-family: "Inter", Serif Text    ;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+button.primary.outline{
+    background: transparent;
+}
+.skills{
+background-color: rgb(22, 116, 128);
+text-align: left;
+padding: 15px;
+margin-top: 30px;
+
+}
+.skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+ }
+.skills ul li{
+    border: 3px solid darkorchid;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px;
+    margin: 0 7px 7px 0px;
+    font-size: 12px;
+ }
